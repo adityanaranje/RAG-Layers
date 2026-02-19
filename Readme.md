@@ -10,28 +10,7 @@
 
 ---
 
-# 🏗️ High-Level Architecture
-
-```mermaid
-flowchart LR
-    A[User Query] --> B[Query Reformulation]
-    B --> C[Hybrid Retrieval]
-    C --> D[Reranker]
-    D --> E[Top-K Context]
-    E --> F[LLM]
-    F --> G[Final Answer]
-
-    subgraph Retrieval
-        C1[Dense (FAISS)]
-        C2[Sparse (BM25)]
-        C1 --> C
-        C2 --> C
-    end
-```
-
----
-
-# 🧊 1. Surface Layer (Beginner RAG)
+# 🧊 1. Surface Layer
 
 ## 1. Data Loading
 Load PDFs/CSVs into documents.
@@ -85,8 +64,6 @@ prompt = f"Context: {context}\nQuestion: {query}"
 ```
 
 ---
-
-# 🌊 2. Builder-Level RAG
 
 ## 9. Query Reformulation
 Improve user queries.
