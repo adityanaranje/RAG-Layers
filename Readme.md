@@ -10,8 +10,6 @@
 
 ---
 
-# 🧊 1. Surface Layer
-
 ## 1. Data Loading
 Load PDFs/CSVs into documents.
 ```python
