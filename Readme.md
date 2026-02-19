@@ -1,5 +1,4 @@
-# 🧠 Production-Grade RAG — Complete Guide (19 Steps)
-
+# 🧠 Production-Grade RAG — Complete Guide
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![LangChain](https://img.shields.io/badge/LangChain-Framework-green)
 ![FAISS](https://img.shields.io/badge/FAISS-VectorDB-orange)
