@@ -176,16 +176,7 @@ flowchart TD
 
 ---
 
-# 🚀 Future Improvements
-
-- Add Streamlit UI
-- Add RAGAS evaluation
-- Use OpenAI embeddings
-- Deploy on AWS / Vercel
-
----
-
 # ⭐ If this helped
 
-Give a ⭐ on GitHub and share 🚀
+Give a ⭐ and share 🚀
 
